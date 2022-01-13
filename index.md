@@ -21,11 +21,11 @@
 ### Other stuff to do
 1. This
 2. Then this
-3. Then this 'print "Hello World"'
+3. Then this `print "Hello World"`
 
-' ' '
+```
 # Some code
 print "Yo"
 print "Hello"
 print "Typing random things"
-' ' '
+```
