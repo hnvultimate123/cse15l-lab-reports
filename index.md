@@ -7,6 +7,10 @@
 
 **Cool bold stuff**
 
+**More cool bold stuff**
+
+*More cool italics stuff*
+
 ![Golden Retriever](https://www.petmd.com/sites/default/files/2020-11/picture-of-golden-retriever-dog_0.jpg)
 
 >Random Blockquote
