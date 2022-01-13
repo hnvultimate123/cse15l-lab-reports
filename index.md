@@ -23,9 +23,9 @@
 2. Then this
 3. Then this 'print "Hello World"'
 
-'''
+' ' '
 # Some code
 print "Yo"
 print "Hello"
 print "Typing random things"
-'''
+' ' '
