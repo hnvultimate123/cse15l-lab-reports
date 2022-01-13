@@ -1,6 +1,6 @@
 # Yo what's up!
 
-[Google] (https://www.google.com/)
+[Google](https://www.google.com/)
 
 ## Cool Heading
 *Cool italics stuff*
