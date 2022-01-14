@@ -58,4 +58,4 @@ To further decrease the amount of time spent typing in commands, its possible to
 
 Using the up arrow key can allow you to quickly pull from previously typed commands. In addition, by using semicolons, different commands can be run one after another. Putting quotes around a command after an `ssh` command allows you to run the command immediately on the remote server. An example is shown below.
 
-[Step 6 Screenshot](Lab1SC6.jpg)
+![Step 6 Screenshot](Lab1SC6.jpg)
