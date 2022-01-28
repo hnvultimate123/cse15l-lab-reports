@@ -23,7 +23,7 @@ The final error that was dealt with was with incorrect output being printed if p
 
 **Link to file with failure-inducing input:** [linkParentheses.md](https://github.com/hnvultimate123/markdown-parse/blob/main/linkParentheses.md)
 
-![ParenthesesLinkFix](ParenthesesLinkError.jpg)
+![ParenthesesLinkFix](ParenthesesLinkFix.jpg)
 
 The above commit also includes a bonus fix for when getLinks is called without an argument (not particularly relevent in this case, so it is not shown in the screenshot).
 
