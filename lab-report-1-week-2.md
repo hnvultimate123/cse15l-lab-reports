@@ -58,4 +58,6 @@ To further decrease the amount of time spent typing in commands, its possible to
 
 Using the up arrow key can allow you to quickly pull from previously typed commands. In addition, by using semicolons, different commands can be run one after another. Putting quotes around a command after an `ssh` command allows you to run the command immediately on the remote server. An example is shown below.
 
+With this process, I was able to significantly cut down on the amount of keystrokes used to run my code. By typing each command out individually after making a change to WhereAmI.java, 104 keystrokes were involved (copy the updated file over, login, compile and run the file, etc.). The second time I made a change, I was able to cut it down to 12 keystrokes by only using the up arrow key to access my previously written commands.
+
 ![Step 6 Screenshot](Lab1SC6.jpg)
