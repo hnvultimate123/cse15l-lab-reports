@@ -31,4 +31,5 @@ The bug here is how the code does not try and determine the end of the link prop
 
 The function splits the string by new lines, and then runs the code where it checks for the last occurence of the ")" character, thus solving for this issue.
 
+### Note:
 There are still many more changes that could be made to improve this code, and even with these changes there may be further issues to iron out for other inputs. Continuing this process of observing symptoms from failure-inducing inputs and solving bugs would absolutely be able to improve this code.
