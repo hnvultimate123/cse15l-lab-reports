@@ -3,7 +3,7 @@
 ## First Code Change: Broken Links
 In this case, the failure-inducing input was a broken link, where due to incorrect formatting, the link is not actually a working link. This is likely caused due to the program trying to find the "(" character but failing to do so (the bug), therefore it continuously loops trying to find it, ultimately leading to an OutOfMemoryError (the symptom).
 
-**Link to file with failure-inducing input:** https://github.com/hnvultimate123/markdown-parse/blob/main/brokenLink.md
+**Link to file with failure-inducing input:** [brokenLink.md](https://github.com/hnvultimate123/markdown-parse/blob/main/brokenLink.md)
 
 ![BrokenLinkFix](BrokenLinkFix.jpg)
 
@@ -12,7 +12,7 @@ To fix this bug, I ensured to check whether the next bracket/parenthesis charact
 ## Second Code Change: Image Links
 The next error that was accounted for was the situation where image links would be printed as part of the output, even though they should not (since the goal is to find normal website links). The failure-inducing input was simply the inclusion of something that would function as an image in the markdown file, with the symptom being its inclusion in the output.
 
-**Link to file with failure-inducing input:** https://github.com/hnvultimate123/markdown-parse/blob/main/imageLink.md
+**Link to file with failure-inducing input:** [imageLink.md](https://github.com/hnvultimate123/markdown-parse/blob/main/imageLink.md)
 
 ![ImageLinkFix](ImageLinkFix.jpg)
 
@@ -21,11 +21,11 @@ The bug causing this issue was how the code does not check whether a link is an 
 ## Third Code Change: Parentheses in a Link
 The final error that was dealt with was with incorrect output being printed if parentheses were present within a link. The existence of parenthess in the link is the failure-inducing input, with the symptom being output that does not properly include the complete link.
 
-**Link to file with failure-inducing input:** https://github.com/hnvultimate123/markdown-parse/blob/main/linkParentheses.md
+**Link to file with failure-inducing input:** [linkParentheses.md](https://github.com/hnvultimate123/markdown-parse/blob/main/linkParentheses.md)
 
-![ParenthesesLinkFix](ParenthesesLinkFix.jpg)
+![ParenthesesLinkFix](ParenthesesLinkError.jpg)
 
-The above also includes a bonus fix for when getLinks is called without an argument (not particularly relevent in this case).
+The above commit also includes a bonus fix for when getLinks is called without an argument (not particularly relevent in this case, so it is not shown in the screenshot).
 
 The bug here is how the code does not try and determine the end of the link properly; it only checks for the next open parenthesis without care for whether it is truly the end of the link or not. This solution accounts for the situation where the links are separated by new lines in the markdown file (or effectively, the enter character). 
 
