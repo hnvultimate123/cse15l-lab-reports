@@ -63,4 +63,5 @@ With this process, I was able to significantly cut down on the amount of keystro
 ![Step 6 Screenshot 1](Lab1SC6.jpg)
 
 The following also shows the file running on the remote server, after initially copying it there from my computer:
+
 ![Step 6 Screenshot 2](RunningOnRemoteServer.jpg)
