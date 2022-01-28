@@ -62,6 +62,6 @@ With this process, I was able to significantly cut down on the amount of keystro
 
 ![Step 6 Screenshot 1](Lab1SC6.jpg)
 
-The following also shows WhereAmI.java running on the remote server, after copying it there from my computer after making a quick change:
+The following also shows WhereAmI.java running on the remote server after I made a quick change and copied it back to the server:
 
 ![Step 6 Screenshot 2](RunningOnRemoteServer.jpg)
