@@ -60,4 +60,7 @@ Using the up arrow key can allow you to quickly pull from previously typed comma
 
 With this process, I was able to significantly cut down on the amount of keystrokes used to run my code. By typing each command out individually after making a change to WhereAmI.java, 108 keystrokes were involved (copy the updated file over, login, compile and run the file, etc.). The second time I made a change, I was able to cut it down to 16 keystrokes primarily by using the up arrow key to access my previously written commands.
 
-![Step 6 Screenshot](Lab1SC6.jpg)
+![Step 6 Screenshot 1](Lab1SC6.jpg)
+
+The following also shows the file running on the remote server, after initially copying it there from my computer:
+![Step 6 Screenshot 2](RunningOnRemoteServer.jpg)
