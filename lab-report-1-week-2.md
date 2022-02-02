@@ -65,3 +65,7 @@ With this process, I was able to significantly cut down on the amount of keystro
 The following also shows WhereAmI.java running on the remote server after I made a quick change and copied it back to the server:
 
 ![Step 6 Screenshot 2](RunningOnRemoteServer.jpg)
+
+To improve this even further, I wrote multiple commands on the same line, so that when I made another change, even fewer keystrokes were needed. The first time I wrote out these commands, 116 keystrokes were required, however when running the code again, only 6 keystrokes were needed with the uses of the up arrow key and enter button.
+
+![Step 6 Screenshot 3](ImprovingRunningOnRemoteServer.jpg)
