@@ -6,9 +6,11 @@ The tests created for the three markdown snippets:
 
 The output for running my tests on my implementation:
 ![Testing my implementation](TestsRunMine.jpg)
+Two of the three tests passed, with the failure occurring on the snippet 2 test.
 
 The output for running my tests on the implementation I reviewed:
 ![Testing reviewed implementation](TestsRunReviewed.jpg)
+All three tests failed, as shown by the error messages.
 
 ## Understanding the Results
 In the context of my implementation, the first and third snippets were able to run without problems, with issues only appearing for the second snippet.
