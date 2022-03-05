@@ -1,6 +1,10 @@
 # Lab Report 4
 
 ## Working with and Running the JUnit Tests
+My implementation: [https://github.com/hnvultimate123/markdown-parse](https://github.com/hnvultimate123/markdown-parse)
+
+The implementation I reviewed: [https://github.com/Stocktocon/markdown-parse](https://github.com/Stocktocon/markdown-parse)
+
 The tests created for the three markdown snippets:
 ![My Tests](MyTestsFixed.jpg)
 
