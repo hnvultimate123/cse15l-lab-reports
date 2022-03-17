@@ -25,6 +25,8 @@ In this case, I would state that both outputs are incorrect. The test file input
 
 This link can be accessed by clicking on this image, which would take the user to where they would need to go. In such a situation, the actual output of the parsing should just be `[/uri]`.
 
-Once again, to determine the bug for the implementation provided, we can look towards the same block of code as before. It has a similar issue, where it is unable to judge the layering of the brackets, although unlike the former case where it misjudges syntax, the parser focuses on the image link rather than the greater link overall. The bug arises from how the code finds the image link and returns that value rather than continuing the look at the rest of the text to find the actual link, which is the main bug. Accounting for this issue would require a fix that can exclude image links as well as focus on the overall end link, rather than what could be contained inside the syntax itself.
+![Fix 512](Fix516.jpg)
+
+To determine the bug for the implementation provided, we can look towards the block of code above. Currently, the code cannot judge the layering of the brackets, although unlike the former case where it misjudges syntax, the parser focuses on the image link rather than the greater link overall. The bug arises from how the code finds the image link and returns that value rather than continuing the look at the rest of the text to find the actual link, which is the main bug. Accounting for this issue would require a fix that can exclude image links as well as focus on the overall end link, rather than what could be contained inside the syntax itself. For instance, in this block of quote, we could write code that would try and identify the "!" character and ignore the link related to that character to avoid including image links.
 
 **Thank you all so much for an amazing quarter! I definitely enjoyed this class :)**
